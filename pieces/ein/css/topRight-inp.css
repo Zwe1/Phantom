@@ -1,0 +1,88 @@
+
+.Input{
+	position: relative;
+	display: block;
+	width: 300px;
+	height: 50px;
+	margin-top: 25px;
+	float: right;
+
+}
+.Input:hover input{
+	border: 1px solid #b0b0b0;
+}
+.left-inp{
+	position: absolute; 
+	top: 0px;
+	right: 49px;
+	width: 250px;
+	height: 48px;
+	border: 1px solid #e0e0e0;
+	
+}
+.right-inp{
+	position: absolute; 
+	top: 0px;
+	right: 0px;
+	width: 49px;
+	height: 48px;
+	border: 1px solid #e0e0e0;
+
+}
+.inside-cont{
+ 	position: absolute;
+	top: 14px;
+	right: 62px;
+	z-index: 2;
+	text-align: right;
+}
+.inside-cont a{
+	display: inline-block;
+	font-size: 12px;
+	color: #757575;
+	background:#eee; 
+	padding: 0 5px;
+}
+.inside-cont a:hover{
+	color: #fff;
+	background: #ff6700;
+}
+.hide-list{
+	position: absolute;
+	width: 250px;
+	top: 50px;
+	right:50px;
+	display: none;
+	background: #fff;
+	z-index: 30;
+}
+.hide-list ul{
+	border: 1px solid #ccc;
+	border-top:none; 
+}
+.hide-list ul li{
+	height: 30px;
+	width: 250px;
+	position: relative;
+	text-indent: 15px;
+}
+.hide-list ul li:hover{background:#eee;}
+.hide-list ul li a,.hide-list ul li span{
+	line-height: 30px;
+	color: #757575;
+	font-size: 12px;
+}
+.hide-list ul li a{
+	left: 20px;
+}
+.hide-list ul li span{
+	position: absolute;
+	right: 15px;
+	color: #c0c0c0;
+}
+._hide{
+	display: none;
+}
+._show{
+	display: block;
+}

@@ -1,0 +1,105 @@
+a{text-decoration: none;text-align: center;}
+li{list-style: none;cursor: pointer;}
+*{margin:0;padding: 0;}
+body{
+font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+input,button,select,textarea{ outline:none;}
+textarea{resize:none;}
+.ban-left{
+height: 460px;
+width: 235px;
+background: rgb(12,12,14);
+position: relative;
+}
+.ban-list{
+top: 0px;
+left: 0px;
+position: absolute;
+padding-top: 30px;
+}
+.ban-list>ul{
+text-indent: 30px;
+}
+.over{
+width: 235px;
+height: 40px;
+}
+.over:hover{
+background: #ff6700;
+}
+.over>a{
+color: #fff;
+font-size: 14px;
+line-height: 40px;
+}
+.children{
+top: 0px;
+left: 232px;
+width: 265px;
+height: 460px;
+position: absolute;
+background: #fff;
+z-index: 31;
+padding-top: 10px;
+box-sizing: border-box;
+display:none;
+overflow:hidden;
+box-shadow: 5px 15px 10px #ddd;
+}
+.double-ul{
+width: 530px!important;
+}
+.children ul{
+display: block;
+float: left;
+text-indent: 10px;
+}
+.children ul::after{clear:both;}
+.children ul li{
+width: 265px;
+position: relative;
+}
+.children ul li a{
+display: inline-block;
+line-height: 70px;
+}
+.children ul li a:nth-child(1){
+color: #333;
+padding: 0 20px;
+}
+.children ul li a:nth-child(1):hover{
+color: #ff6700;
+}
+.children ul li a:nth-child(2){
+color: #ff6700;
+border: 1px solid #ff6700;
+width: 65px;
+height: 24px;
+position: absolute;
+right: 10px;
+top:22px;
+line-height: 24px;
+text-align:center; 
+}
+.children ul li a:nth-child(2):hover{
+background: #ff6700;
+color: #fff;
+}
+.children ul li img{
+display: inline-block;
+width: 40px;
+height: 40px;
+vertical-align: middle;
+margin-right: 10px;
+}
+.show{
+display: block;
+}
+.font-color1{
+color: #ff6700;
+}
+.CSS{
+background: #ff6700;
+color: #fff;
+}

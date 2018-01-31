@@ -1,0 +1,51 @@
+/*初始化样式*/
+body{
+	font: 12px/1.5 'Hiragino Sans GB','microsoft yahei',arial,sans-serif;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {margin: 0;padding: 0;}
+ul li{list-style: none;}
+a{text-decoration: none;color:#555;}
+input:focus{
+	outline: none;
+}
+/*公共样式*/
+/*居中*/
+.make-mid{
+	margin: 0 auto;
+	width: 1190px;
+}
+.make-me-left{
+	display: block;
+	float: left;
+}
+.make-me-right{
+	display: block;
+	float: right;
+}
+.clear::before{
+	content: '';
+	display: block;
+	clear: both;
+	zoom:1;
+}
+.clear::after{
+	content: '';
+	display: block;
+	clear: both;
+	zoom:1;
+}
+.color888{
+	color: #888;
+}
+.colorff7300{
+	color: #ff7300;
+}
+.margin-R0{
+	margin-right: 0!important;
+}
+.cursor-pointer{
+	cursor: pointer;
+}
+.cursor-default{
+	cursor: default;
+}

@@ -1,0 +1,318 @@
+#bottom-coat{
+	width: 100%;
+	background-color: #fff;
+}
+/*以商会友*/
+#business{
+	overflow: hidden;
+	padding-top: 35px;
+	margin-bottom: 35px;
+}
+.business-item{
+	float: left;
+	width: 370px;
+	margin-right: 40px;
+}
+.business-title{
+	line-height: 20px;
+	overflow: hidden;
+}
+.business-title>p{
+	float: left;
+	color: #333;
+	font-size: 18px;
+}
+.business-title .business-lable{
+	float: left;
+	background: #888;
+	width: 286px;
+	height: 2px;
+	margin-top: 12px;
+	margin-left: 12px;
+}
+.business-pic{
+	display: block;
+	position: relative;
+	width: 370px;
+	height: 200px;
+	margin-top: 18px;
+	overflow: hidden;
+}
+.business-pic>img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.business-pic>p{
+	color: #fff;
+	position: absolute;
+	height: 39px;
+	bottom: 0;
+	top: auto;
+	padding-top: 15px;
+	background: #000;
+	background: -webkit-linear-gradient(bottom,#000,transparent);
+	width: 370px;
+	text-align: center;
+	font-size: 16px;
+}
+.business-news{
+	margin-top:11px;
+	overflow: hidden;
+}
+.business-news>ul>li{
+	font-size: 12px;
+	line-height: 13px;
+	margin-top: 14px;
+	overflow: hidden;
+}
+.business-news span{
+	float: left;
+	color: #ff7b41;
+	margin-right: 5px;
+	overflow: hidden;
+}
+.business-news ul span.span-width{
+	width: 57px;
+}
+.business-news .saying{
+	float: left;
+	width: 144px;
+	height: 12px;
+	line-height: 12px;
+	overflow: hidden;
+	color: #333;
+}
+.business-news .bring{
+	float: left;
+	height: 12px;
+	line-height: 12px;
+	margin-left: 5px;
+	width: 145px;
+	color: #333;
+	overflow: hidden;
+}
+/*1688*/
+#thieves ul li .business-lable{
+	width: 274px;
+}
+/*1688应用*/
+#application ul{
+	display: flex;
+	justify-content: space-between;
+	border-left: 1px solid #ededed;
+	border-right: 1px solid #ededed;
+	height: 200px;
+	overflow: hidden;
+	margin-top: 18px;
+}
+#application ul li{
+	width: 123px;
+	text-align: center;
+}
+#application ul li .app-img{
+	width: 50px;
+	height: 50px;
+	background-image: url(https://cbu01.alicdn.com/cms/upload/2016/263/488/2884362_1073447813.png);
+	margin: 20px auto 0;
+    background-position: -6px 0;
+}
+#application .app-name{
+	font-size: 14px;
+	line-height: 14px;
+	margin-top: 22px;
+	color: #333;
+}
+#application .app-desc{
+	color: #666;
+	font-size: 12px;
+	line-height: 12px;
+	margin-top: 14px;
+}
+#application .app-sub-desc{
+	color: #666;
+	font-size: 12px;
+	line-height: 12px;
+	margin-top: 6px;
+}
+#application .app-icon{
+	width: 18px;
+	height: 18px;
+	margin: 24px auto 0;
+	background-image: url(https://cbu01.alicdn.com/cms/upload/2016/720/188/2881027_1073447813.png);
+	background-position: -11px -120px;
+	position: relative;
+}
+#application ul li:nth-child(2){
+	border-left: 1px solid #ededed;
+	border-right: 1px solid #ededed;
+}
+/*1688服务*/
+#service-1688 .question{
+	position: relative;
+	margin-top: 48px;
+}
+.question input{
+	width: 288px;
+	height: 38px;
+	box-sizing: border-box;
+	padding: 13px 11px;
+	background: #f2f2f2;
+	color: #666;
+	font-size: 12px;
+	line-height: 12px;
+	float: left;
+	border: 0;
+}
+.question button{
+	width: 82px;
+	height: 38px;
+	border: none;
+	background: #ff6000;
+	float: left;
+	color: #fff;
+	cursor: pointer;
+}
+.question img{
+	position: absolute;
+	top: -43px;
+	left: 304px;
+	width: 44px;
+}
+.service114{
+	margin-top: 27px;
+}
+.service114 ul{
+	display: flex;
+	color: #333;
+}
+.service114 li{
+	border-left: 1px solid #e5e5e5;
+	font-size: 12px;
+	line-height: 12px;
+	flex-grow: 1;
+	text-align: center;
+}
+.service114 li:nth-child(1){
+	border-left: none;
+}
+.question-item{
+	margin-top: 26px;
+	padding-top: 22px;
+	border-top: 1px dashed #f1f1f1;
+	color: #333;
+}
+.question-item~a{
+	margin-bottom: 5px;
+	float: left;
+	color: #666;
+	width: 185px;
+}
+/*广告*/
+#ad{
+	margin-top: 25px;
+}
+/*底部footer*/
+footer{
+	background-color: #121212;
+	height: 404px;
+	margin-top: 35px;
+	padding-top: 27px;
+}
+#ali-service img{
+	margin-top: 12px;
+	height: 37px;
+}
+#ali-service ul{
+	float: right;
+}
+#ali-service ul li{
+	float: left;
+	width: 122px;
+	margin-right: 76px;
+}
+#ali-service h2{
+	font-size: 14px;
+	color: #fff;
+	height: 44px;
+	line-height: 44px;
+	font-weight: 400;
+	margin-bottom:9px; 
+}
+#ali-service a{
+	display: block;
+	line-height: 12px;
+	padding: 6px 0;
+	color: #888;
+
+}
+/*阿里巴巴集团*/
+#ali-group img{
+	display: block;
+	height: 26px;
+	margin-top: 19px;
+}
+#ali-group .group-info{
+	float: right;
+	padding-top: 14px;
+	border-top: 1px solid #343434;
+	width: 980px;
+	position: relative;
+}
+#ali-group .group-info .info1{
+	margin:6px 0;
+}
+#ali-group .group-info #special-1{
+	margin:12px 0;
+}
+#ali-group .group-info .info1 a{
+	padding:0 12px;
+	border-right:1px solid #333;
+	color:#666;
+}
+#ali-group .group-info .special-2 a{
+	color: #444;
+	border-right:none; 
+}
+#ali-group .group-info .info1 a:nth-child(1){
+	padding-left: 0;
+}
+#ali-group .group-info .info1 a:last-child{
+	border-right:none;
+}
+/*最最最底部*/
+#ali-group .ali-certs .fd-left{
+	display: block;
+	height: 30px;
+	float: left;
+	margin-right: 6px;
+	background-image: url(https://cbu01.alicdn.com/cms/upload/2016/070/525/2525070_1073447813.png);
+}
+.ali-certs .cert1{
+	width: 73px;
+	background-position: 0 -38px;
+}
+.ali-certs .cert2{
+	width: 90px;
+	background-position: -79px -38px;
+}
+.ali-certs .cert3{
+	width: 73px;
+	background-position: -175px -38px;
+}
+.ali-certs .cert4{
+	width: 73px;
+	background-position: -255px -38px;
+}
+.ali-certs .cert5{
+	width: 85px;
+	background-position: -334px -38px;
+}
+.ali-certs .cert6{
+	width: 171px;
+	background-position: -535px -38px;
+}
+.ali-certs .cert7{
+	width: 111px;
+	background-position: -715px -38px;
+}
